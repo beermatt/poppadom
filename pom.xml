@@ -52,13 +52,6 @@
             <configuration>
                <stopPort>9966</stopPort>
                <stopKey>STOP</stopKey>
-               <contextHandlers>
-                   <contextHandler implementation="org.mortbay.jetty.handler.ContextHandler">
-                       <contextPath>/static</contextPath>
-                       <resourceBase>${basedir}../../code/src/main/webapp/static</resourceBase>
-                       <handler implementation="org.mortbay.jetty.handler.ResourceHandler"/>
-                    </contextHandler>
-              </contextHandlers>
             </configuration>
             <executions>
                 <execution>
